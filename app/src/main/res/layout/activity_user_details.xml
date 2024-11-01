@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailsActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/user_details_background">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/login_icon"
+        />
+    <TextView
+        android:id="@+id/detailsTV"
+        android:text="@string/details"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nameET"
+        android:hint="@string/enter_your_name"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/rounded_corner_edit_text"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:hint="@string/enter_a_username"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/rounded_corner_edit_text"
+        android:padding="18dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <Button
+        android:id="@+id/addImageBtn"
+        android:text="@string/add_image"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/lavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/continueBtn"
+        android:text="@string/continue_"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/lavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPSC_POE_PART_2</string>
+    <string name="guest">Invité</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="login">Se connecter</string>
+    <string name="sign_up_underlined"><u>S`inscrire</u></string>
+    <string name="sign_up">S`inscrire</string>
+    <string name="or_sign_in_with">Ou connectez-vous avec</string>
+    <string name="enter_your_details">Entrez vos informations</string>
+    <string name="enter_your_name">Entrez votre nom</string>
+    <string name="enter_a_username">Entrez un nom d`utilisateur</string>
+    <string name="add_image">Ajouter une image</string>
+    <string name="continue_">Continuer</string>
+    <string name="details">Détails</string>
+    <string name="friends">Amis</string>
+    <string name="settings">Paramètres</string>
+    <string name="quizzes">Quiz</string>
+    <string name="create_quiz">Créer un quiz</string>
+    <string name="username">Nom d`utilisateur</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="leaderboard">Classement</string>
+    <string name="score_display">Score :</string>
+    <string name="add_friend">Ajouter un ami</string>
+    <string name="add_friends">Ajouter des amis</string>
+    <string name="search">Recherche</string>
+    <string name="requests">Demandes</string>
+    <string name="add">Ajouter</string>
+    <string name="search_username">Rechercher un nom d`utilisateur</string>
+    <string name="request_sent">Demande envoyée</string>
+    <string name="enable_dark_mode">Activer le mode sombre</string>
+    <string name="large">Grand</string>
+    <string name="medium">Moyen</string>
+    <string name="small">Petit</string>
+    <string name="choose_font_size">Choisir la taille de police</string>
+    <string name="green">Vert</string>
+    <string name="blue">Bleu</string>
+    <string name="white">Blanc</string>
+    <string name="choose_theme_color">Choisir la couleur du thème</string>
+    <string name="set_notification_time">Définir l`heure de notification</string>
+    <string name="language">Langue</string>
+    <string name="page_name">Nom de la page</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="user_not_found">Utilisateur non trouvé</string>
+    <string name="error">Erreur : %1$s</string>
+
+</resources>
